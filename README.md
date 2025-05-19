@@ -1,2 +1,2 @@
 # Entra_ID
-All Thin
+This contains powershell scripts and log analytics queries
