@@ -1,3 +1,5 @@
+# Entra ID Protection stop false positive risk caused by Zscaler
+
 _**False positives will clear up as the model recognizes the MFA prompts.  Meaning this is not necessary, one concern that has been communicated to me is man in the middle from a proxy may be missed.**_
 
 Also it is recommended by Zscaler to consider doing a direct to the Microsoft M365 logon urls so that the appropriate conditional access policy is applied.  [best practices for microsoft365 and zscaler](https://www.zscaler.com/resources/white-papers/best-practices-for-microsoft365-and-zscaler.pdf)
