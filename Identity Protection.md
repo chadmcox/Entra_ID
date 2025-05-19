@@ -54,6 +54,16 @@
 
  **Comment:
 
+  ### Block all user risk for Admin Portals
+
+| Users | Cloud Apps or Actions | Conditions | Grant | Session |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| Include: All users  <br /> Exclude: BreakGlass  | Target Resources: Windows Azure Service Management API and Microsoft Admin Portals <br> Exclude: Office 365  | User Risk: High, Medium and Low | Block | Sign-in Frequency: EveryTime |  
+
+ **Prereq:** NA
+
+ **Comment:
+
 ### Block directory sync account all sign-in risk
 
 | Users | Cloud Apps or Actions | Conditions | Grant | Session |
