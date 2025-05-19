@@ -53,3 +53,13 @@
  **Prereq:** NA
 
  **Comment:
+
+### Block directory sync account all sign-in risk
+
+| Users | Cloud Apps or Actions | Conditions | Grant | Session |
+| --------------------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| Roles: Directory Syncronization Account  <br /> Exclude: BreakGlass  | Target Resources: All Resources  | Sign-in Risk: High, Medium and Low | Block | Sign-in Frequency: EveryTime |  
+
+ **Prereq:** NA
+
+ **Comment:
